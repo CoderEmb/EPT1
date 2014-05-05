@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4A7D771899590B00B61601 /* window-dentist-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A7D761899590B00B61601 /* window-dentist-background.jpg */; };
+		2B4A7D7918995B1400B61601 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A7D7818995B1400B61601 /* image1.jpg */; };
 		2B57B2081854BF5D004FB654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B2071854BF5D004FB654 /* Foundation.framework */; };
 		2B57B20A1854BF5D004FB654 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B2091854BF5D004FB654 /* CoreGraphics.framework */; };
 		2B57B20C1854BF5D004FB654 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B20B1854BF5D004FB654 /* UIKit.framework */; };
@@ -19,6 +21,22 @@
 		2B57B2231854BF5D004FB654 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B20B1854BF5D004FB654 /* UIKit.framework */; };
 		2B57B22B1854BF5D004FB654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B57B2291854BF5D004FB654 /* InfoPlist.strings */; };
 		2B57B22D1854BF5D004FB654 /* EPT1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B22C1854BF5D004FB654 /* EPT1Tests.m */; };
+		2B57B2411854C0AB004FB654 /* EPTAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B2401854C0AB004FB654 /* EPTAccount.m */; };
+		2B57B2441854C0C6004FB654 /* EPTTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B2431854C0C6004FB654 /* EPTTransaction.m */; };
+		2B57B2461854C1B6004FB654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B57B2451854C1B6004FB654 /* Main.storyboard */; };
+		2B57B24918576E91004FB654 /* EPTHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B24818576E91004FB654 /* EPTHomePageViewController.m */; };
+		2B57B24C18577907004FB654 /* EPTAddAccountPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B24B18577907004FB654 /* EPTAddAccountPageViewController.m */; };
+		2B57B24F18577923004FB654 /* EPTAddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B24E18577923004FB654 /* EPTAddTransactionViewController.m */; };
+		2B57B25218585F31004FB654 /* Expenses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B25018585F31004FB654 /* Expenses.xcdatamodeld */; };
+		2B57B2551858CBCD004FB654 /* EPTAccountsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B2541858CBCD004FB654 /* EPTAccountsListTableViewController.m */; };
+		2B57B2571859FF93004FB654 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B57B2561859FF93004FB654 /* CoreData.framework */; };
+		2B57B25D185C3245004FB654 /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B25C185C3245004FB654 /* Transactions.m */; };
+		2B57B260185C3245004FB654 /* Accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B25F185C3245004FB654 /* Accounts.m */; };
+		2B57B263185C3245004FB654 /* CategoryTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B262185C3245004FB654 /* CategoryTags.m */; };
+		2BB6A7691875900000AD212B /* EPTReminderPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6A7681875900000AD212B /* EPTReminderPageViewController.m */; };
+		2BF832CF1860691A0008E057 /* EPTAddTagPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF832CE1860691A0008E057 /* EPTAddTagPageViewController.m */; };
+		2BF832D218630F3F0008E057 /* EPTEditAccountPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF832D118630F3F0008E057 /* EPTEditAccountPageViewController.m */; };
+		2BF832D9186330920008E057 /* EPTTransactionsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF832D8186330920008E057 /* EPTTransactionsListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B4A7D761899590B00B61601 /* window-dentist-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "window-dentist-background.jpg"; sourceTree = "<group>"; };
+		2B4A7D7818995B1400B61601 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		2B57B2041854BF5D004FB654 /* EPT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPT1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B57B2071854BF5D004FB654 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B57B2091854BF5D004FB654 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +68,35 @@
 		2B57B2281854BF5D004FB654 /* EPT1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPT1Tests-Info.plist"; sourceTree = "<group>"; };
 		2B57B22A1854BF5D004FB654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B57B22C1854BF5D004FB654 /* EPT1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPT1Tests.m; sourceTree = "<group>"; };
+		2B57B23F1854C0AB004FB654 /* EPTAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTAccount.h; sourceTree = "<group>"; };
+		2B57B2401854C0AB004FB654 /* EPTAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTAccount.m; sourceTree = "<group>"; };
+		2B57B2421854C0C6004FB654 /* EPTTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTTransaction.h; sourceTree = "<group>"; };
+		2B57B2431854C0C6004FB654 /* EPTTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTTransaction.m; sourceTree = "<group>"; };
+		2B57B2451854C1B6004FB654 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B57B24718576E91004FB654 /* EPTHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTHomePageViewController.h; sourceTree = "<group>"; };
+		2B57B24818576E91004FB654 /* EPTHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTHomePageViewController.m; sourceTree = "<group>"; };
+		2B57B24A18577907004FB654 /* EPTAddAccountPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTAddAccountPageViewController.h; sourceTree = "<group>"; };
+		2B57B24B18577907004FB654 /* EPTAddAccountPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTAddAccountPageViewController.m; sourceTree = "<group>"; };
+		2B57B24D18577923004FB654 /* EPTAddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTAddTransactionViewController.h; sourceTree = "<group>"; };
+		2B57B24E18577923004FB654 /* EPTAddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTAddTransactionViewController.m; sourceTree = "<group>"; };
+		2B57B25118585F31004FB654 /* Expenses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Expenses.xcdatamodel; sourceTree = "<group>"; };
+		2B57B2531858CBCD004FB654 /* EPTAccountsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTAccountsListTableViewController.h; sourceTree = "<group>"; };
+		2B57B2541858CBCD004FB654 /* EPTAccountsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTAccountsListTableViewController.m; sourceTree = "<group>"; };
+		2B57B2561859FF93004FB654 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B57B25B185C3245004FB654 /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transactions.h; path = ../Transactions.h; sourceTree = "<group>"; };
+		2B57B25C185C3245004FB654 /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transactions.m; path = ../Transactions.m; sourceTree = "<group>"; };
+		2B57B25E185C3245004FB654 /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Accounts.h; path = ../Accounts.h; sourceTree = "<group>"; };
+		2B57B25F185C3245004FB654 /* Accounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Accounts.m; path = ../Accounts.m; sourceTree = "<group>"; };
+		2B57B261185C3245004FB654 /* CategoryTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryTags.h; path = ../CategoryTags.h; sourceTree = "<group>"; };
+		2B57B262185C3245004FB654 /* CategoryTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryTags.m; path = ../CategoryTags.m; sourceTree = "<group>"; };
+		2BB6A7671875900000AD212B /* EPTReminderPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTReminderPageViewController.h; sourceTree = "<group>"; };
+		2BB6A7681875900000AD212B /* EPTReminderPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTReminderPageViewController.m; sourceTree = "<group>"; };
+		2BF832CD1860691A0008E057 /* EPTAddTagPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPTAddTagPageViewController.h; path = ../EPTAddTagPageViewController.h; sourceTree = "<group>"; };
+		2BF832CE1860691A0008E057 /* EPTAddTagPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPTAddTagPageViewController.m; path = ../EPTAddTagPageViewController.m; sourceTree = "<group>"; };
+		2BF832D018630F3F0008E057 /* EPTEditAccountPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTEditAccountPageViewController.h; sourceTree = "<group>"; };
+		2BF832D118630F3F0008E057 /* EPTEditAccountPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTEditAccountPageViewController.m; sourceTree = "<group>"; };
+		2BF832D7186330920008E057 /* EPTTransactionsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPTTransactionsListTableViewController.h; path = ../EPTTransactionsListTableViewController.h; sourceTree = "<group>"; };
+		2BF832D8186330920008E057 /* EPTTransactionsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPTTransactionsListTableViewController.m; path = ../EPTTransactionsListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B57B2571859FF93004FB654 /* CoreData.framework in Frameworks */,
 				2B57B20A1854BF5D004FB654 /* CoreGraphics.framework in Frameworks */,
 				2B57B20C1854BF5D004FB654 /* UIKit.framework in Frameworks */,
 				2B57B2081854BF5D004FB654 /* Foundation.framework in Frameworks */,
@@ -96,6 +146,7 @@
 		2B57B2061854BF5D004FB654 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B57B2561859FF93004FB654 /* CoreData.framework */,
 				2B57B2071854BF5D004FB654 /* Foundation.framework */,
 				2B57B2091854BF5D004FB654 /* CoreGraphics.framework */,
 				2B57B20B1854BF5D004FB654 /* UIKit.framework */,
@@ -107,10 +158,40 @@
 		2B57B20D1854BF5D004FB654 /* EPT1 */ = {
 			isa = PBXGroup;
 			children = (
+				2B57B23F1854C0AB004FB654 /* EPTAccount.h */,
+				2B57B2401854C0AB004FB654 /* EPTAccount.m */,
+				2B57B2421854C0C6004FB654 /* EPTTransaction.h */,
+				2B57B2431854C0C6004FB654 /* EPTTransaction.m */,
 				2B57B2161854BF5D004FB654 /* EPTAppDelegate.h */,
 				2B57B2171854BF5D004FB654 /* EPTAppDelegate.m */,
+				2B57B2451854C1B6004FB654 /* Main.storyboard */,
+				2BB6A7671875900000AD212B /* EPTReminderPageViewController.h */,
+				2BB6A7681875900000AD212B /* EPTReminderPageViewController.m */,
+				2BF832D7186330920008E057 /* EPTTransactionsListTableViewController.h */,
+				2BF832D8186330920008E057 /* EPTTransactionsListTableViewController.m */,
+				2BF832D018630F3F0008E057 /* EPTEditAccountPageViewController.h */,
+				2BF832D118630F3F0008E057 /* EPTEditAccountPageViewController.m */,
+				2BF832CD1860691A0008E057 /* EPTAddTagPageViewController.h */,
+				2BF832CE1860691A0008E057 /* EPTAddTagPageViewController.m */,
+				2B57B2531858CBCD004FB654 /* EPTAccountsListTableViewController.h */,
+				2B4A7D761899590B00B61601 /* window-dentist-background.jpg */,
+				2B57B2541858CBCD004FB654 /* EPTAccountsListTableViewController.m */,
+				2B57B24718576E91004FB654 /* EPTHomePageViewController.h */,
+				2B57B24818576E91004FB654 /* EPTHomePageViewController.m */,
+				2B4A7D7818995B1400B61601 /* image1.jpg */,
+				2B57B24A18577907004FB654 /* EPTAddAccountPageViewController.h */,
+				2B57B24B18577907004FB654 /* EPTAddAccountPageViewController.m */,
+				2B57B24D18577923004FB654 /* EPTAddTransactionViewController.h */,
+				2B57B24E18577923004FB654 /* EPTAddTransactionViewController.m */,
 				2B57B2191854BF5D004FB654 /* Images.xcassets */,
 				2B57B20E1854BF5D004FB654 /* Supporting Files */,
+				2B57B25018585F31004FB654 /* Expenses.xcdatamodeld */,
+				2B57B25E185C3245004FB654 /* Accounts.h */,
+				2B57B25F185C3245004FB654 /* Accounts.m */,
+				2B57B25B185C3245004FB654 /* Transactions.h */,
+				2B57B25C185C3245004FB654 /* Transactions.m */,
+				2B57B261185C3245004FB654 /* CategoryTags.h */,
+				2B57B262185C3245004FB654 /* CategoryTags.m */,
 			);
 			path = EPT1;
 			sourceTree = "<group>";
@@ -221,7 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B57B2121854BF5D004FB654 /* InfoPlist.strings in Resources */,
+				2B4A7D7918995B1400B61601 /* image1.jpg in Resources */,
+				2B4A7D771899590B00B61601 /* window-dentist-background.jpg in Resources */,
 				2B57B21A1854BF5D004FB654 /* Images.xcassets in Resources */,
+				2B57B2461854C1B6004FB654 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +324,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B57B25218585F31004FB654 /* Expenses.xcdatamodeld in Sources */,
 				2B57B2181854BF5D004FB654 /* EPTAppDelegate.m in Sources */,
+				2BF832D9186330920008E057 /* EPTTransactionsListTableViewController.m in Sources */,
+				2B57B24C18577907004FB654 /* EPTAddAccountPageViewController.m in Sources */,
+				2B57B260185C3245004FB654 /* Accounts.m in Sources */,
+				2BB6A7691875900000AD212B /* EPTReminderPageViewController.m in Sources */,
+				2B57B24918576E91004FB654 /* EPTHomePageViewController.m in Sources */,
+				2B57B2411854C0AB004FB654 /* EPTAccount.m in Sources */,
+				2BF832CF1860691A0008E057 /* EPTAddTagPageViewController.m in Sources */,
+				2B57B2551858CBCD004FB654 /* EPTAccountsListTableViewController.m in Sources */,
+				2B57B25D185C3245004FB654 /* Transactions.m in Sources */,
+				2B57B24F18577923004FB654 /* EPTAddTransactionViewController.m in Sources */,
+				2B57B2441854C0C6004FB654 /* EPTTransaction.m in Sources */,
+				2BF832D218630F3F0008E057 /* EPTEditAccountPageViewController.m in Sources */,
+				2B57B263185C3245004FB654 /* CategoryTags.m in Sources */,
 				2B57B2141854BF5D004FB654 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,12 +456,17 @@
 		2B57B2311854BF5D004FB654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPT1/EPT1-Prefix.pch";
 				INFOPLIST_FILE = "EPT1/EPT1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,12 +474,17 @@
 		2B57B2321854BF5D004FB654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EPT1/EPT1-Prefix.pch";
 				INFOPLIST_FILE = "EPT1/EPT1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +550,7 @@
 				2B57B2321854BF5D004FB654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B57B2331854BF5D004FB654 /* Build configuration list for PBXNativeTarget "EPT1Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,8 +559,22 @@
 				2B57B2351854BF5D004FB654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B57B25018585F31004FB654 /* Expenses.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B57B25118585F31004FB654 /* Expenses.xcdatamodel */,
+			);
+			currentVersion = 2B57B25118585F31004FB654 /* Expenses.xcdatamodel */;
+			path = Expenses.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2B57B1FC1854BF5D004FB654 /* Project object */;
 }

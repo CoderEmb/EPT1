@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
 @interface EPTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//@property (nonatomic, strong) NSMutableArray *ExistingAccounts;
+
+@property (nonatomic, retain, readonly) NSManagedObjectModel *managedOB;
+@property (nonatomic, retain, readonly) NSManagedObjectContext *managedOBCon;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persStCo;
+
 
 @end

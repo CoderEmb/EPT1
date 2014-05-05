@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Accounts" representedClassName="Accounts" syncable="YES">
+        <attribute name="iAccountID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iCurBalance" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sAccountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sAccountType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sAccToTran" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transactions" inverseName="iTrantoAcc" inverseEntity="Transactions" syncable="YES"/>
+    </entity>
+    <entity name="CategoryTags" representedClassName="CategoryTags" syncable="YES">
+        <attribute name="iTagID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sTagName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="iTagToTran" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Transactions" inverseName="sTranToTag" inverseEntity="Transactions" syncable="YES"/>
+    </entity>
+    <entity name="Transactions" representedClassName="Transactions" syncable="YES">
+        <attribute name="dDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="iAccountID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iAmount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iTagID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sTransactionID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sTranType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="iTrantoAcc" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Accounts" inverseName="sAccToTran" inverseEntity="Accounts" syncable="YES"/>
+        <relationship name="sTranToTag" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="CategoryTags" inverseName="iTagToTran" inverseEntity="CategoryTags" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accounts" positionX="160" positionY="192" width="128" height="103"/>
+        <element name="Transactions" positionX="0" positionY="0" width="128" height="45"/>
+        <element name="CategoryTags" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
